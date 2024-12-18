@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style/style.css">
+  
+  <title>Spira</title>
+  <style>
+    header{
+      font-family: "DM Sans", sans-serif;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 41px;
+    margin-bottom: 50px;
+    /*position: fixed;*/
+}
+a{
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: #A7A7A7;
+    margin: 25px;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo d-flex flex-column align-items-center mt-5">
+        <img src="/img/logo_white.jpg" width="100" alt="logo">
+   
+        <a href="/index.html">
+          Portfolio</a>
+     </div> 
+</header>
+  <section class="comment-feed container">
+    <h2>Комментарии</h2>
+    <ol class="comment-list">
+      
+    </ol>
+    <form action="" method="post" class="comment-form">
+      <div class="comment-inner" style="
+      margin-bottom: 20px;
+  ">
+        <div class="block">
+          <h3> <label class="comment-label" for="comment-input">Ваш комментарий</label></h3>
+          <input type="text" class="comment-field" value="" placeholder="Комментарий" id="comment-input">
+       
+      </div>
+      <div class="block">
+        <h3> <label class="comment-label" for="comment-input">Ваше имя</label></h3>
+        <input type="text" class="comment-field-name" value="" placeholder="Имя"  id="comment-input">
+        </div>
+      </div>
+      <button class="button"  style="
+      width: auto; " type="submit">Отправить</button>
+    </form>
+    <button class="heart"><span class="likes-number">0</span></button>
+    
+  </section>
+  <script src="/Project/CommentAndLike/script.js"></script>
+</body>
+
+</html>

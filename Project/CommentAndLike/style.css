@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+button{
+
+    width: auto;
+    height: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment-feed{
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 50px;
+    width: 50%;
+    padding: 15px;
+    h2{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment-field{
+    width: 150px;
+    height: 30px;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+    position: relative;
+}
+.comment-field-name{
+    width: 150px;
+    height: 30px;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+    position: relative;
+}
+.comment-list{
+    padding: 0;
+    h3{
+        margin-bottom: 30px;
+    }
+}
+.button{
+    margin-top: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 39px;
+    background-color: #FF7E0E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
+.comment-inner{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.block h3{
+    margin: 0;
+}
+.user-comment{
+    font-size: 20px;
+margin: 0;
+}
+.heart{
+    padding: 12px 10px;
+    min-width: 40px;
+    min-height: 34px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    cursor: pointer;
+    color:#6653d9 ;
+    background-image: url(/img/icon-heart-light.svg);
+}
+.added{
+background-image: url(/img/icon-heart-light-added.svg);
+}
+.heart .likes-number {
+    margin-left: 24px;
+    line-height: 14px;
+  }
+  @media screen and (max-width: 1000px) and (min-width: 320px) { 
+.comment-feed{
+    width: 90%;
+}
+.comment-inner{
+    width: 100%;
+}
+
+   }
+
