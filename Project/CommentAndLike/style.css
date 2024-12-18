@@ -106,10 +106,10 @@ margin: 0;
     background-position: 12px;
     cursor: pointer;
     color:#6653d9 ;
-    background-image: url(/img/icon-heart-light.svg);
+    background-image: url(/Portfolio/img/icon-heart-light.svg);
 }
 .added{
-background-image: url(/img/icon-heart-light-added.svg);
+background-image: url(/Portfolio/img/icon-heart-light-added.svg);
 }
 .heart .likes-number {
     margin-left: 24px;
