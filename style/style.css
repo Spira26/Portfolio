@@ -109,9 +109,7 @@ a {
     width: 30px;
     height: 18px;
 }
-#Btn:hover{
-    box-shadow:  1px 1px 100px 1px white;
-}
+
 .burger span {
     height: 2px;
     width: 80%;
@@ -374,7 +372,7 @@ footer {
 #counter{
     color: white;
 }
-@media screen and (max-width: 1000px) and (min-width: 320px) {
+@media screen and (max-width: 1024px) and (min-width: 320px) {
     body {
         width: 100%;
         display: flex;
