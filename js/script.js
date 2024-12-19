@@ -6,7 +6,7 @@ let upButton = document.querySelector('.up-button')
 
 
 window.onscroll = function () {
-    if(window.scrollY > 600){
+    if(window.scrollY > 800){
         upButton.classList.add('shown')
     }else{
         upButton.classList.remove('shown')
