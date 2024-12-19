@@ -10,10 +10,13 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
-    width: 100%;
+    width: 70%;
 }
 
 .preloader {
@@ -106,7 +109,9 @@ a {
     width: 30px;
     height: 18px;
 }
-
+#Btn:hover{
+    box-shadow:  1px 1px 100px 1px white;
+}
 .burger span {
     height: 2px;
     width: 80%;
@@ -152,7 +157,7 @@ header {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .social {
@@ -171,7 +176,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .screen {
@@ -244,17 +249,17 @@ header {
 }
 
 .Skill {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    gap: 90px;
 }
 
 .Skill img {
     width: 150px;
     height: 150px;
-    margin: 50px;
+    margin: 50px 0;
 }
 
 #Project {
@@ -282,17 +287,16 @@ header {
 .Card--main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card {
     width: 373px;
-    height: 567px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     transition: 0.3s;
     color: white;
-    margin: 70px;
+    margin-bottom: 70px;
 }
 
 .card img {
@@ -309,6 +313,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+  
 }
 
 .button {
