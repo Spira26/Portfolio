@@ -101,7 +101,7 @@ a {
     transition: 0.3s; /* Время перехода */
    }
    a:hover {
-    transform: rotate(3deg) translate(5px); /* Трансформация */
+    transform: rotate(3deg) translate(10px); /* Трансформация */
    }
 
 .open {
