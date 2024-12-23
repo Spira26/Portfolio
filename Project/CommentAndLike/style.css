@@ -81,7 +81,7 @@ button{
     width: 60%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 
 }
@@ -121,6 +121,8 @@ background-image: url(/Portfolio/img/icon-heart-light-added.svg);
 }
 .comment-inner{
     width: 100%;
+    display: flex;
+        flex-direction: column;
 }
 
    }
