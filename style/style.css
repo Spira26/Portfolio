@@ -372,7 +372,7 @@ footer {
 #counter{
     color: white;
 }
-@media screen and (max-width: 1024px) and (min-width: 320px) {
+@media screen and (max-width: 768px) and (min-width: 320px) {
     body {
         width: 100%;
         display: flex;
@@ -460,6 +460,14 @@ footer {
     .conteiner--one {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: space-around;
+        img{
+            width: 280px;
+            height: 280px;
+        }
+        h1{
+            font-size: 30px;
+        }
     }
 
     .MyTechnology {
@@ -473,6 +481,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        gap: 0;
     }
 
     footer {
@@ -496,4 +505,9 @@ footer {
         position: relative;
         right: 0;
     }
+    .img{
+        width: 280px;
+        height: 280px;
+    }
+ 
 }
