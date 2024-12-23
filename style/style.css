@@ -96,6 +96,14 @@ a {
     margin: 25px;
 }
 
+a {
+    display: inline-block; /* Строчно-блочный элемент */
+    transition: 0.3s; /* Время перехода */
+   }
+   a:hover {
+    transform: rotate(3deg) translate(5px); /* Трансформация */
+   }
+
 .open {
     display: flex !important;
 }
