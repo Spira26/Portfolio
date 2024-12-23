@@ -115,7 +115,7 @@ background-image: url(/Portfolio/img/icon-heart-light-added.svg);
     margin-left: 24px;
     line-height: 14px;
   }
-  @media screen and (max-width: 1000px) and (min-width: 320px) { 
+  @media screen and (max-width: 1024px) and (min-width: 320px) { 
 .comment-feed{
     width: 90%;
 }
